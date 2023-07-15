@@ -6,6 +6,7 @@ import { TodosComponent } from './myNewComponent/todos/todos.component';
 import { HeaderComponent } from './myNewComponent/header/header.component';
 import { BodyComponent } from './myNewComponent/body/body.component';
 import { FooterComponent } from './myNewComponent/footer/footer.component';
+import { SvgIconsComponent } from './myNewComponent/svg-icons/svg-icons.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FooterComponent } from './myNewComponent/footer/footer.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
+    SvgIconsComponent,
   ],
   imports: [BrowserModule],
   providers: [],
